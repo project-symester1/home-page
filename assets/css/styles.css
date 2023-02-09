@@ -480,17 +480,18 @@ a {
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.5;
-   
+
     color: #A7A7A7;
 }
 
-.stats-trend .separate{
+.stats-trend .separate {
     margin-top: 25px;
     height: 1px;
-    background: #e9e9e9; ;
+    background: #e9e9e9;
+    ;
 }
 
-.stats .avatar-block{
+.stats .avatar-block {
     display: flex;
     margin-top: 26px;
     flex-wrap: wrap;
@@ -498,18 +499,19 @@ a {
 
 }
 
-.stats .avatar{
+.stats .avatar {
     width: 16px;
     height: 16px;
     margin-left: -3px;
     object-fit: cover;
     border-radius: 50%;
 }
-.stats .avatar-group{
+
+.stats .avatar-group {
     display: flex;
 }
 
-.stats .avatar-1{
+.stats .avatar-1 {
     background: #1f3bb1;
     font-weight: 350;
     font-size: 1rem;
@@ -554,4 +556,98 @@ a {
     color: #5A6473;
 
 
+}
+
+.stats .row-qty {
+    margin-top: 110px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+
+
+}
+
+.stats .row-qty .qty-item {
+    width: 225px;
+    max-width: 100%;
+}
+
+.stats .row-qty .qty {
+
+    height: 64px;
+    font-weight: 600;
+    font-size: 6.4rem;
+    line-height: 1;
+    color: #000000;
+}
+
+
+.stats .row-qty .qty-desc {
+    font-weight: 500;
+    margin-top: 24px;
+    font-size: 1, 8rem;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #7B8087;
+}
+
+.subcription {
+    margin-top: 90x;
+    ;
+
+}
+
+.subcription .body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 370px;
+    background-color: #063183;
+    border-radius: 20px;
+}
+
+.subcription .info {
+    width: 671px;
+    padding: 0 80px;
+}
+
+.subcription .sub-title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    /* identical to box height, or 100% */
+
+
+    color: #FFFFFF;
+}
+
+.subcription .desc {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.75;
+}
+
+.subcription .btn{
+    margin-top: 20px;
+    min-width: 151px;
+    background-color: #fff;
+    color: #002366;
+
+}
+
+.subcription .image{
+    position: absolute;
+    bottom: 0;
+    right: 221px;
 }
