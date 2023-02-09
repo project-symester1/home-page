@@ -219,6 +219,58 @@ a {
     color: #5A6473;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+.list-guide {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-item {
+    margin: 0 70px;
+    text-align: center;
+}
+
+.guide-item .title {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.1;
+    /* identical to box height, or 110% */
+
+    color: #3B3C45;
+    margin-top: 26px;
+
+}
+
+.guide-item .link {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.4rem;
+   
+    text-align: center;
+
+    color: #0689FF;
+    margin-top: 10px;
+
+}
+
+.guide-item .arrow{
+    margin-left: 6px;
+
+}
+
+.guide-cta{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.guide-cta .btn{
+    min-width: 170px;
     
 
 }
