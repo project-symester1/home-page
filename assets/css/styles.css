@@ -154,7 +154,7 @@ a {
 .clients .desc {
     font-weight: 500;
     font-size: 1.6rem;
-    line-height: 1,25;
+    line-height: 1, 25;
     /* identical to box height, or 125% */
 
     text-align: right;
@@ -164,13 +164,61 @@ a {
 
 }
 
-.clients .row-desc{
+.clients .row-desc {
     margin-top: 23px;
 }
 
-.clients .images{
+.clients .images {
     margin-top: 96px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.guides {
+    margin-top: 200px;
+}
+
+.guides .sub-title {
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    /* or 100% */
+
+    text-align: center;
+
+    color: #000339;
+
+}
+
+.guides .sub-title::before {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    display: inline-block;
+    width: 41px;
+    height: 4px;
+    background: #000339;
+    border-radius: 12px;
+}
+
+.guides .desc {
+    width: 459px;
+    max-width: 100%;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    /* or 188% */
+    text-align: center;
+
+    color: #5A6473;
+    margin-left: auto;
+    margin-right: auto;
+    
+
 }
